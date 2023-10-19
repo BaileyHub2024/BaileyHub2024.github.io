@@ -75,8 +75,11 @@
 			*/
 			function update() {
 				 /* Your Code to Increase positionX by 10 HERE */
-				 positionX = positionX + 10;
+				 positionX = positionX + speed;
 				moveBoxTo(positionX)
+				if (conditionIsTrue) {
+     
+}
 
 				
 
@@ -91,6 +94,7 @@
 				positionX = 0;
 				points = points + 1;
 				changeBoxText(points);
+				speed =3; 
 				
 
 
