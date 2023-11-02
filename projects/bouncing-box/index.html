@@ -27,8 +27,9 @@
 <body class="board">
 	<!-- HTML for the box -->
 	<div class="box">?
-		<h2> Sarea Bailey</h2>
-		<p> Student at Abramson Sci Academy </p>
+		<h2> </h2>
+		<p> 
+		</p>
 	</div>
 
 	<script>
@@ -67,7 +68,7 @@
 			// TODO 2 - Variable declarations 
 			var positionX = 0;
 			var points = 0;
-			var speed = 20; 
+			var speed = 10; 
 			
 
 			
@@ -96,8 +97,8 @@
 			function handleBoxClick() {
 				positionX = 0;
 				points = points + 1;
-				changeBoxText(points);
-				speed = 10; 
+				changeBoxText(points); 
+				speed += 3 
 				
 
 
